@@ -51,10 +51,6 @@ public class RightControl : MonoBehaviour {
 				}
 			}
 		}
-
-		if(Input.touchCount == 0){
-			SetAngle (this.defaultAngle);
-		}
 	}
 
 	//フリッパーの傾きを設定
